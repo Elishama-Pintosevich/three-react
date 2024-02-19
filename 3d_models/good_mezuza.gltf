@@ -1,0 +1,238 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 300000,
+      "max": [
+        0.14022094011306763,
+        0.7164582014083862,
+        0.13656365871429443
+      ],
+      "min": [
+        -0.1666361689567566,
+        -0.7011749148368835,
+        -0.15586578845977783
+      ],
+      "name": "positions",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 300000,
+      "max": [
+        0.9999865293502808,
+        0.9999936819076538,
+        0.9999992251396179
+      ],
+      "min": [
+        -0.9999983310699463,
+        -0.9992765188217163,
+        -0.9999765753746033
+      ],
+      "name": "normals",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 300000,
+      "max": [
+        0.9999949932098389,
+        0.9999452829360962
+      ],
+      "min": [
+        1.7946958905667998e-06,
+        0.0021532177925109863
+      ],
+      "name": "texCoords",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5125,
+      "count": 300000,
+      "max": [
+        299999
+      ],
+      "min": [
+        0
+      ],
+      "name": "indices",
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 3600000,
+      "name": "positions",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 3600000,
+      "byteOffset": 3600000,
+      "name": "normals",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 2400000,
+      "byteOffset": 7200000,
+      "name": "texCoords",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1200000,
+      "byteOffset": 9600000,
+      "name": "indices",
+      "target": 34963
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 10800000,
+      "uri": "good_mezuza.bin"
+    }
+  ],
+  "images": [
+    {
+      "name": "good_mezuza_BaseColor",
+      "uri": "direct-good_mezuza_BaseColor.png"
+    },
+    {
+      "name": "good_mezuza_Normal",
+      "uri": "direct-good_mezuza_Normal.png"
+    },
+    {
+      "name": "occlusionMetallicRoughness-3r-2r-0-0",
+      "uri": "occlusionMetallicRoughness-3r-2r-0-0.png"
+    }
+  ],
+  "materials": [
+    {
+      "name": "good_mezuza_mtl",
+      "normalTexture": {
+        "index": 1
+      },
+      "occlusionTexture": {
+        "index": 3
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 2
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1,
+        2
+      ],
+      "name": "good_mezuza"
+    },
+    {
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.013207614421844482,
+        -0.007641613483428955,
+        0.0096510648727417,
+        1.0
+      ],
+      "mesh": 0,
+      "name": "MeshTransform"
+    },
+    {
+      "name": "material"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9729,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "magFilter": 9729,
+      "minFilter": 9729,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "magFilter": 9729,
+      "minFilter": 9729,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "magFilter": 9729,
+      "minFilter": 9729,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 1,
+      "source": 1
+    },
+    {
+      "sampler": 2,
+      "source": 2
+    },
+    {
+      "sampler": 3,
+      "source": 2
+    }
+  ]
+}
